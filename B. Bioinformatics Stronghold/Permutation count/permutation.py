@@ -15,11 +15,13 @@ y1 = (list(itertools.permutations(y)))
 total = 0
 string = ''
 for i in (y1):
-    string += (str(i).replace(',', '').replace('(', '').replace(')', '')+ '\n')
+    print(i)
+    #string += (str(i).replace(',', '').replace('(', '').replace(')', '')+ '\n')
     total += 1
 
+#print (y1)
 print (total)
-print (string)
+# print (string)
 
 #surprising that when given an n for 6, 720 permutations were given
 # might be useful to write it to a docuemnt
